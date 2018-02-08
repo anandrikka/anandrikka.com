@@ -1,0 +1,12 @@
+title: ANAND RIKKA.
+description: This is a personal website to know more about me !
+author: Anand Reddy Rikka
+
+url: https://www.anandrikka.com
+root: /
+
+source_dir: source
+public_dir: public
+
+theme: personal
+  

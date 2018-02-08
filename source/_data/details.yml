@@ -1,0 +1,106 @@
+name: Anand Rikka
+jobTitle: Web Developer
+
+profile_social:
+  blogger:
+    icon: fa fa-rss-square
+    url: https://techanand.wordpress.com
+  facebook:
+    icon: fa fa-github-square
+    url: https://github.com/anandrikka
+  linkedin:
+    icon: fa fa-linkedin-square
+    url: https://www.linkedin.com/in/anandrikka
+  twitter:
+    icon: fa fa-twitter-square
+    url: https://twitter.com/anandrikka
+  
+about:
+  title: What I am all about
+  paras:
+    - Oracle certified Java, J2EE Developer and Microsoft certified HTML, CSS3 and Javascript Developer having 5 years of professional experience in developing Single Page Web Applications. I specialise in developing/architecting production ready web applications based on customer needs. My choice of technologies for building web applications include Java, Spring or NodeJS for Restful Web Services, AngularJS, ReactJS and Redux for User Interface development and Maven, Glup & Webpack as build tools.
+    - I have a strong passion for the creativity, commitment and discipline that goes into development. Keeping in mind scalability and clean code that is maintainable and readable. I'm continuous learner and currently teaching myself Java 8, Spring Boot, Jenkins and Angular 2. I keep myself updated with current market trends and try to do small PoC's to understand concepts.
+
+skills:
+  title: Skills
+  text: Though most of the time was spent on developing web applications, I had a knowledge on software development lifecycle.
+  languages:
+    - name: HTML, CSS & Javascript
+      percent: 80
+    - name: Java
+      percent: 70
+    - name: J2EE
+      percent: 60
+    - name: SQL
+      percent: 40
+    - name: Linux
+      percent: 30
+  frameworks:
+    - name: Angular
+      percent: 80
+    - name: ReactJs
+      percent: 90
+    - name: Redux
+      percent: 90
+    - name: VueJs
+      percent: 70
+    - name: Spring Core & Spring MVC
+      percent: 50
+  tools:
+    - name: Git
+      percent: 80
+    - name: Jenkins
+      percent: 40
+    - name: Docker
+      percent: 30
+    - name: Webpack & Gulp
+      percent: 60
+    
+
+experience:
+  title: Work Experience
+  list:
+    - period: June, 2017 - Present
+      jobTitle: Sr. Web Developer
+      company: Tata Consultancy Services
+      client: State Street
+      location: United States, Boston
+    - period: January, 2017 - May, 2017
+      jobTitle: Sr. Web Developer
+      company: Tata Consultancy Services
+      client: State Street
+      location: India, Hyderabad
+    - period: August, 2016 - December, 2016
+      jobTitle: Web Developer
+      company: Tata Consultancy Services
+      client: Digital Enterprise Solutions & Services
+      location: India, Hyderabad
+    - period: March, 2012 - July, 2016
+      jobTitle: Support Analyst & Web Developer
+      company: Tata Consultancy Services
+      client: QuadraMed
+      location: India, Hyderabad
+
+education:
+  title: Education
+  list:
+    - name: Bachelor of Technology
+      university: Jawaharlal Nehru Technological University
+      period: 2007 - 2011
+    - name: Certificate in Maths, Physics & Chemistry (+2)
+      university: Intermediate Board of Education
+      period: 2005- 2007
+
+certifications:
+  title: Certifications
+  list:
+    - name: Oracle Certified Java EE Web Component Developer (OCWCD)
+      when: Jan 2015
+      provider: Oracle
+    - name: Oracle Certified Java Programmer (OCJP)
+      when: Oct 2014
+      provider: Oracle
+    - name: Programming in HTML5 with JavaScript and CSS3
+      when: Mar 2013
+      provider: Microsoft
+

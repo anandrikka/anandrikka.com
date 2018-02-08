@@ -1,0 +1,12 @@
+<div class="right-col-block blocks">
+	<%- partial('_partials/cv/introduction', {about: site.data.details.about}) %>
+	<%- partial('_partials/cv/expertise') %>
+	<%- partial('_partials/cv/skills', {skills: site.data.details.skills}) %>
+	<%- partial('_partials/cv/experience', {experience: site.data.details.experience}) %>
+	<%- partial('_partials/cv/education', {education: site.data.details.education}) %>
+	<%- partial('_partials/cv/certifications', {certifications: site.data.details.certifications}) %>
+	<%- partial('_partials/cv/interests')%>
+	<%- partial('_partials/cv/personal-work') %>
+	<%- partial('_partials/cv/contact') %>
+	<%- partial('_partials/cv/footer') %>
+</div>

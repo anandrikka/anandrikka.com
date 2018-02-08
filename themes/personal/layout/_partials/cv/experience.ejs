@@ -1,0 +1,22 @@
+<section class="section-wrapper section-experience gray-bg">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-title"><h2><%=experience.title%></h2></div>
+			</div>
+		</div>
+		<!--.row-->
+		<div class="row">
+			<div class="col-md-12">
+				<% experience.list.forEach(function(workItem){ %>
+					<div class="content-item">
+						<small><%=workItem.period%></small>
+						<h3><%=workItem.jobTitle%></h3>
+						<h4><%=workItem.company%> (<%=workItem.client%>)</h4>
+						<p><%=workItem.location%></p>
+					</div>
+				<% }) %>
+			</div>
+		</div>
+	</div>
+</section>

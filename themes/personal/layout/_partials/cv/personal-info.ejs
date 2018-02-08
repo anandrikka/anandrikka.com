@@ -1,0 +1,9 @@
+<div class="content text-center">
+	<h1><%=site.data.details.name%></h1>
+	<p class="lead"><%=site.data.details.jobTitle%></p>
+	<ul class="social-icon">
+		<% for(var key in social) { %>
+			<li><a href="<%=social[key].url%>" target="_blank"><i class="<%=social[key].icon%>" aria-hidden="true"></i></a></li>
+		<% }%>
+	</ul>
+</div>

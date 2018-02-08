@@ -1,0 +1,466 @@
+@import 'bootstrap.min.css'
+@import 'font-awesome.min.css'
+
+$primary-color = #061c30
+$font-color = #3d3d50
+$link-color = #47bec7
+$font-family = Montserrat //Lato //Raleway
+$font-size-root = 62.5%
+$font-size = 1.6rem
+
+body
+	font-family	$font-family
+	font-size $font-size
+	line-height	1.8em
+	color $font-color
+	font-weight 400
+	background #ffffff
+
+h1, h2, h3, h4, h5, h6
+	margin 0 0 15px
+	color  #2b2b3d
+	
+h1
+	font-size 2.6rem
+	line-height 1.8em
+	font-weight 700
+
+h2
+	font-size 2rem
+	line-height 1.8em
+	font-weight 700
+
+h3
+	font-size 1.8rem
+	line-height 1.8em
+	font-weight 500
+
+h4
+	font-size 1.6rem
+	line-height 1.8em
+	font-weight 500
+
+h5
+	font-size 1.6rem
+	line-height 1.5em
+	font-weight 500
+
+h6
+	font-size 1.6rem
+	line-height 1.5em
+
+// Link styles
+a
+	color	$link-color
+	text-decoration	none
+	transition all 0.3s ease 0s
+
+a,
+a:active,
+a:focus,
+a:active
+	text-decoration none
+	outline none
+
+a:hover,
+a:focus
+	text-decoration none
+	color $link-color
+p
+	margin-bottom : 20px
+
+ul
+	margin 0
+	padding 0
+	list-style none
+
+/*------------------
+ * Button Style
+ *------------------*/
+.btn
+	padding 14px 30px 11px
+	margin-bottom 0
+	font-size 1.6rem
+	font-weight 400
+	border-radius 0
+	border 0
+	text-transform uppercase
+
+.btn-lg
+	font-weight 700
+	font-size 2.4rem
+	padding 15px 30px
+
+/*btn-primary*/
+.btn-primary
+	background-color $primary-color
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:focus
+	background $primary-color
+
+/*btn-default*/
+.btn-default
+	color	$primary-color
+	background-color transparent
+	border 2px solid $primary-color
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active:focus
+	background  $primary-color
+	color #ffffff
+	border-color $primary-color
+
+button:focus,
+.btn:focus,
+.btn:active:focus
+	outline none
+
+#main-wrapper
+	background #ffffff
+	overflow hidden
+
+// Column Blocks: Start
+.columns-block
+	flex-wrap wrap
+	display flex
+	flex-flow row wrap
+	justify-content space-around
+
+.blocks
+	box-sizing border-box
+
+.left-col-block 
+	width	50%
+	text-align center
+	overflow hidden
+	position fixed
+	left 0
+
+.right-col-block
+	width 50%
+	position absolute
+	right 0
+	box-shadow -10px -10px 30px rgba(0, 0, 0, 0.23)
+
+@media (max-width : 800px)
+	.left-col-block
+		width 100%
+		position relative
+
+	.right-col-block
+		width      : 100%
+		position   : relative
+		box-shadow : none
+// Column Blocks: End
+
+// Header: Start
+.header
+	padding 0
+	margin 0
+	height 100vh
+	vertical-align middle
+	position relative
+
+.header .profile-img
+	position absolute
+	top 0
+	left 0
+	z-index -1
+	width 100%
+	height 100%
+	background-image url(../img/cover.jpg)
+	background-size cover
+	background-position center center
+
+.header .content
+	position : absolute
+	bottom   : 0
+	left     : 0
+	right    : 0
+	width    : 100%
+	margin   : 0 auto
+	padding  : 10%
+
+.header .content h1
+	font-size 3.6rem
+	color #ffffff
+	line-height 1.8em
+	margin 0
+	text-transform uppercase
+
+.header .content p
+	font-size 1.8rem
+	color #ffffff
+	text-transform uppercase
+
+.header .btn
+	margin-top 40px
+
+.header .content .social-icon
+	margin 0
+	padding 0
+	display block
+
+.header .content .social-icon li
+	display : inline-block
+	margin  : 0 5px
+
+.header .content .social-icon li a
+	color: #ffffff
+
+.header .content .social-icon li a:hover
+	color: $link-color
+
+@media (max-width : 800px)
+	.header .profile-img
+		z-index 1
+	.header .content
+		z-index 2
+		padding 5%
+// Headers: End
+
+// Section: start
+.gray-bg
+	background-color  #f9f9f9
+
+.section-wrapper
+	padding 50px
+
+@media (max-width: 800px)
+	.section-wrapper
+		padding 40px
+
+@media (max-width : 480px)
+	.section-wrapper
+		padding 30px 20px
+
+/*---------------------------
+* Section Title
+*---------------------------*/
+.section-title
+	margin-bottom  15px
+
+.section-title h2
+	margin-bottom 5px
+	color $link-color
+
+/*-------------------
+ * Intro
+ *-------------------*/
+
+.intro {
+	}
+
+/*-------------------
+ * Expertise
+ *-------------------*/
+.expertise-item {
+	margin-bottom : 20px
+	}
+
+.expertise-item h3 {
+	margin-bottom : 5px
+	font-weight   : 700
+	}
+
+/*-------------------
+ * Skills Progressbar
+ *-------------------*/
+
+.progress-wrapper
+	h4
+		font-weight 600
+		text-decoration underline
+
+.progress-item
+	position relative
+
+.progress-item .progress-title
+	font-size	15px
+	font-weight 400
+	display inline-block
+	margin-bottom 5px
+
+.progress-item .progress
+	height 4px
+	box-shadow none
+	border-radius 5px
+
+.progress-item .progress-bar
+	background-color $primary-color
+	box-shadow none
+	text-align right
+	opacity 0.7
+
+.progress-item .progress-percent
+	font-size 10px
+	background-color $link-color
+	position absolute
+	top 5px
+	padding 0 8px
+	border-radius 3px
+
+.progress-item .progress-percent::before
+	content ""
+	position absolute
+	left 0
+	bottom -4px
+	border-top 6px solid $link-color
+	border-right 8px solid transparent
+
+
+.section-experience
+	.content-item
+		h3
+			text-transform none
+
+/*-------------------
+ * personal-project
+ *-------------------*/
+
+.personal-project-item {
+	position      : relative
+	display       : block
+	margin-bottom : 30px
+	}
+
+.personal-project-item .personal-project-thumb img {
+	height    : auto
+	display   : block
+	max-width : 100%
+	}
+
+.personal-project-item .personal-project-info {
+	position   : absolute
+	bottom     : 0
+	padding    : 30px 15px 5px
+	width      : 100%
+	}
+
+.personal-project-item .personal-project-info h3 {
+	margin      : 0
+	line-height : 1
+	color       : #ffffff
+	}
+
+.personal-project-item .personal-project-info small {
+	color : #ffffff
+	}
+
+/*-------------------
+ * Content Item
+ *-------------------*/
+
+.content-item {
+	margin-bottom : 40px
+	}
+
+.content-item h3 {
+	margin         : 0 0 10px
+	line-height    : 1
+	font-weight    : bold
+	text-transform : uppercase
+	}
+
+.content-item h4 {
+	margin      : 0
+	line-height : 1
+	}
+
+.content-item small {
+	color : #888888
+	}
+
+/*-------------------
+ * Contact
+ *-------------------*/
+
+.feedback-form {
+	margin-top : 50px
+	}
+
+/*-------------------
+ * Form Style
+ *-------------------*/
+.form-control {
+	height        : 50px
+	padding       : 0 20px
+	font-size     : 13px
+	line-height   : 50px
+	color         : #969595
+	border        : 1px solid #cccccc
+	border-radius : 0
+	box-shadow    : none
+	box-sizing    : border-box
+	}
+
+.form-control:focus,
+.form-control:active {
+	box-shadow : none
+	}
+
+/* --------------------------------------------
+ *   Footer
+ *---------------------------------------------- */
+
+/* Copyright */
+
+.footer {
+	padding : 30px 50px
+	}
+
+.footer .copyright-section {
+	font-size : 13px
+	color     : #888888
+
+	}
+
+.footer .copyright-section .copytext {
+	font-weight : 400
+	display     : block
+	text-transform: uppercase
+	}
+
+@media (max-width : 480px) {
+	.footer {
+		padding : 10px 20px
+		}
+	}
+
+/* ====================
+ * Preloader
+ * ====================*/
+#preloader {
+	background : $primary-color
+	bottom     : 0
+	left       : 0
+	position   : fixed
+	right      : 0
+	top        : 0
+	z-index    : 9999
+	}
+
+#status,
+.status-mes {
+	background-image    : url(../img/puff.svg)
+	background-position : center
+	background-repeat   : no-repeat
+	height              : 300px
+	left                : 50%
+	margin              : -150px 0 0 -150px
+	position            : absolute
+	top                 : 50%
+	width               : 300px
+	transform: scale(2)
+	}
+
+.status-mes {
+	background : none
+	left       : 0
+	margin     : 0
+	text-align : center
+	top        : 65%
+	}

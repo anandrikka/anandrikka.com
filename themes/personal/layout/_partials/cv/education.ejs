@@ -1,0 +1,20 @@
+<section class="section-wrapper section-education">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-title"><h2><%=education.title%></h2></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<% education.list.forEach(function(item){ %>
+					<div class="content-item">
+						<small><%=item.period%></small>
+						<h3><%=item.name%></h3>
+						<h4><%=item.university%></h4>
+					</div>
+				<% })%>
+			</div>
+		</div>
+	</div>
+</section>

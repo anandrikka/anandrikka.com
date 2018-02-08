@@ -1,0 +1,21 @@
+<section class="section-wrapper section-certifications gray-bg">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-title"><h2><%=certifications.title%></h2></div>
+			</div>
+		</div>
+		<!--.row-->
+		<div class="row">
+			<div class="col-md-12">
+				<% certifications.list.forEach(function(workItem){ %>
+					<div class="content-item">
+						<small><%=workItem.when%></small>
+						<p><%=workItem.name%></p>
+						<!-- <h4><%=workItem.provider%></h4> -->
+					</div>
+				<% }) %>
+			</div>
+		</div>
+	</div>
+</section>
