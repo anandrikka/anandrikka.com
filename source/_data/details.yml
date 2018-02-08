@@ -122,6 +122,9 @@ personalProjects:
     - name: Daily News
       link: https://news2day.herokuapp.com
       desc: A News website developed using React, Redux, Express, Firebase and NewsApi.org. The intention is to pull the records from Firebase and save the news metadata in firebase using cron jobs.
+    - name: React Gitbook
+      link: https://anandrikka.gitbooks.io/reactjs/content/
+      desc: E-book for learning React with interactive examples.
     - name: Stock Calculator
       link: https://play.google.com/store/apps/details?id=techanand.apps.stockcalculator&hl=en
       desc: A simple android app to quickly calculate P/L while selling shares. The app is one of the best rated apps in this category and has 4.6 rating. It's only available in India.
