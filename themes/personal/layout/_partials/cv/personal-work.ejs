@@ -8,59 +8,14 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-6">
-				<a class="personal-project-item" href="#">
-					<div class="personal-project-thumb">
-						<img src="img/portfolio-1.jpg" alt="">
+			<div class="col-md-12">
+				<% work.list.forEach(function(item) { %>
+					<div class="content-item">
+						<h3><%=item.name%>&nbsp;&nbsp;<a class="fa fa-external-link" href="<%=item.link%>" target="_blank"></a></h3>
+						<p><%=item.desc%></p>
 					</div>
-					<div class="personal-project-info">
-						<h3>Creative concepts</h3>
-						<small>domain.com</small>
-					</div>
-					<!-- personal-project-info -->
-				</a>
-				<!-- .personal-project-item -->
-			</div>
-			<div class="col-md-6">
-				<a class="personal-project-item" href="#">
-					<div class="personal-project-thumb">
-						<img src="img/portfolio-2.jpg" alt="">
-					</div>
-					<div class="personal-project-info">
-						<h3>Customer focused</h3>
-						<small>domain.com</small>
-					</div>
-					<!-- personal-project-info -->
-				</a>
-				<!-- .personal-project-item -->
-			</div>
-			<div class="col-md-6">
-				<a class="personal-project-item" href="#">
-					<div class="personal-project-thumb">
-						<img src="img/portfolio-3.jpg" alt="">
-					</div>
-					<div class="personal-project-info">
-						<h3>Management methodology</h3>
-						<small>domain.com</small>
-					</div>
-					<!-- personal-project-info -->
-				</a>
-				<!-- .personal-project-item -->
-			</div>
-			<div class="col-md-6">
-				<a class="personal-project-item" href="#">
-					<div class="personal-project-thumb">
-						<img src="img/portfolio-4.jpg" alt="">
-					</div>
-					<div class="personal-project-info">
-						<h3>Market research</h3>
-						<small>domain.com</small>
-					</div>
-					<!-- personal-project-info -->
-				</a>
-				<!-- .personal-project-item -->
+				<% })%>
 			</div>
 		</div>
-		<!-- /.row -->
 	</div>
 </section>

@@ -16,17 +16,23 @@ profile_social:
     url: https://twitter.com/anandrikka
   
 about:
-  title: What I am all about
+  title: Full Stack Developer
   paras:
-    - Oracle certified Java, J2EE Developer and Microsoft certified HTML, CSS3 and Javascript Developer having 5 years of professional experience in developing Single Page Web Applications. I specialise in developing/architecting production ready web applications based on customer needs. My choice of technologies for building web applications include Java, Spring or NodeJS for Restful Web Services, AngularJS, ReactJS and Redux for User Interface development and Maven, Glup & Webpack as build tools.
-    - I have a strong passion for the creativity, commitment and discipline that goes into development. Keeping in mind scalability and clean code that is maintainable and readable. I'm continuous learner and currently teaching myself Java 8, Spring Boot, Jenkins and Angular 2. I keep myself updated with current market trends and try to do small PoC's to understand concepts.
+    - I am a dynamic quick thinking creative professional with the skills to take a web application development from the initial architecture phase, straight through development and deployment. My choice of web application technical stack includes Angular, React, Vue, Gulp, Webpack, Sass, Stylus, Chai, Mocha, Karma, Babel, Node, Express, Spring MVC and SQL.
+    - I have a strong passion for the creativity, commitment and discipline that goes into development. Keeping in mind scalability and clean code that is maintainable and readable.
+    - I have experience coordinating with project management as well as other developers, learning quickly, multitasking, meeting deadlines and communicating promptly and clearly.
+    - I'm continuous learner and always keep myself upto date with current trends.
 
 skills:
   title: Skills
-  text: Though most of the time was spent on developing web applications, I had a knowledge on software development lifecycle.
+  text: Though most of the time was spent on developing web applications, I have knowledge on complete software development lifecycle.
   languages:
-    - name: HTML, CSS & Javascript
-      percent: 80
+    - name: HTML5
+      percent: 70
+    - name: CSS3
+      percent: 60
+    - name: Javascript
+      percent: 80  
     - name: Java
       percent: 70
     - name: J2EE
@@ -34,28 +40,31 @@ skills:
     - name: SQL
       percent: 40
     - name: Linux
-      percent: 30
+      percent: 20
   frameworks:
     - name: Angular
       percent: 80
-    - name: ReactJs
+    - name: React
       percent: 90
     - name: Redux
       percent: 90
-    - name: VueJs
+    - name: Vue
       percent: 70
     - name: Spring Core & Spring MVC
       percent: 50
   tools:
     - name: Git
       percent: 80
+    - name: Webpack & Gulp
+      percent: 60
     - name: Jenkins
       percent: 40
     - name: Docker
       percent: 30
-    - name: Webpack & Gulp
-      percent: 60
-    
+    - name: Tomcat
+      percent: 40
+    - name: Sql Developer
+      percent: 40
 
 experience:
   title: Work Experience
@@ -103,4 +112,20 @@ certifications:
     - name: Programming in HTML5 with JavaScript and CSS3
       when: Mar 2013
       provider: Microsoft
+
+personalProjects:
+  title: Personal Projects
+  list:
+    - name: Film Talkies
+      link: https://filmtalkies.herokuapp.com
+      desc: A Film website developed using React, Redux, Express and TMDB Api. This application is deployed on heroku for free.
+    - name: Daily News
+      link: https://news2day.herokuapp.com
+      desc: A News website developed using React, Redux, Express, Firebase and NewsApi.org. The intention is to pull the records from Firebase and save the news metadata in firebase using cron jobs.
+    - name: Stock Calculator
+      link: https://play.google.com/store/apps/details?id=techanand.apps.stockcalculator&hl=en
+      desc: A simple android app to quickly calculate P/L while selling shares. The app is one of the best rated apps in this category and has 4.6 rating. It's only available in India.
+    - name: Http Promise Library
+      link: https://www.npmjs.com/package/http-promise-api
+      desc: A simple promise based http library for making get, post, delete and put calls.
 
