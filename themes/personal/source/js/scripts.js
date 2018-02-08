@@ -1,6 +1,6 @@
 (function($){
     'use strict';
     (function () {
-        $('#preloader').delay(2000).fadeOut('slow');
+        $('#preloader').delay(1500).fadeOut('slow');
     }());
 })(jQuery)
