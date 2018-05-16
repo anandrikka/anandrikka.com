@@ -16,12 +16,12 @@ profile_social:
     url: https://twitter.com/anandrikka
   
 about:
-  title: Full Stack Developer
+  title: Web Developer
   paras:
-    - I am a dynamic quick thinking creative professional with the skills to take a web application development from the initial architecture phase, straight through development and deployment. My choice of web application technical stack includes Angular, React, Vue, Gulp, Webpack, Sass, Stylus, Chai, Mocha, Karma, Babel, Node, Express, Spring MVC and SQL.
+    - Prolific, full stack web developer with a flair for creating elegant solutions. Passionate about building web applications using latest technology stack. Developed an entertainment web portal, news web portal and stock calculator android app to learn new technologies. Passionate about software architecture, Devops and cloud computing.
     - I have a strong passion for the creativity, commitment and discipline that goes into development. Keeping in mind scalability and clean code that is maintainable and readable.
     - I have experience coordinating with project management as well as other developers, learning quickly, multitasking, meeting deadlines and communicating promptly and clearly.
-    - I'm continuous learner and always keep myself upto date with current trends.
+    - I'm continuous learner and regular follower of technical news letters and blog articles(medium).
 
 skills:
   title: Skills
@@ -93,12 +93,9 @@ experience:
 education:
   title: Education
   list:
-    - name: Bachelor of Technology
+    - name: Bachelor of Technology in Electronics and Communication
       university: Jawaharlal Nehru Technological University
       period: 2007 - 2011
-    - name: Certificate in Maths, Physics & Chemistry (+2)
-      university: Intermediate Board of Education
-      period: 2005- 2007
 
 certifications:
   title: Certifications
