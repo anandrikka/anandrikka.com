@@ -22,6 +22,7 @@ about:
     - I have a strong passion for the creativity, commitment and discipline that goes into development. Keeping in mind scalability and clean code that is maintainable and readable.
     - I have experience coordinating with project management as well as other developers, learning quickly, multitasking, meeting deadlines and communicating promptly and clearly.
     - I'm continuous learner and regular follower of technical news letters and blog articles(medium).
+    - Currently pursuing cources on Machine Learning and Artifical intelligence
 
 skills:
   title: Skills
@@ -35,23 +36,23 @@ skills:
       percent: 80  
     - name: Java
       percent: 70
-    - name: J2EE
-      percent: 60
     - name: SQL
       percent: 40
+    - name: Python
+      percent: 50
     - name: Linux
       percent: 20
+    - name: Machine Learning
+      percent: 70
   frameworks:
     - name: Angular
-      percent: 80
+      percent: 40
     - name: React
-      percent: 90
-    - name: Redux
       percent: 90
     - name: Vue
       percent: 70
     - name: Spring Core & Spring MVC
-      percent: 50
+      percent: 70
   tools:
     - name: Git
       percent: 80
@@ -65,6 +66,8 @@ skills:
       percent: 40
     - name: Sql Developer
       percent: 40
+    - name: Juypter Notebook
+      percent: 50
 
 experience:
   title: Work Experience
@@ -72,12 +75,12 @@ experience:
     - period: June, 2017 - Present
       jobTitle: Sr. Web Developer
       company: Tata Consultancy Services
-      client: State Street
+      client: Asset Management Company
       location: United States, Boston
     - period: January, 2017 - May, 2017
       jobTitle: Sr. Web Developer
       company: Tata Consultancy Services
-      client: State Street
+      client: Asset Management Company
       location: India, Hyderabad
     - period: August, 2016 - December, 2016
       jobTitle: Web Developer
@@ -87,12 +90,15 @@ experience:
     - period: March, 2012 - July, 2016
       jobTitle: Support Analyst & Web Developer
       company: Tata Consultancy Services
-      client: QuadraMed
+      client: Health Care
       location: India, Hyderabad
 
 education:
   title: Education
   list:
+    - name: PGP - Artificial Intelligence and Machine Learning
+      university: Texas Austin
+      period: 2018 - Current
     - name: Bachelor of Technology in Electronics and Communication
       university: Jawaharlal Nehru Technological University
       period: 2007 - 2011
